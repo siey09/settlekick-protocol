@@ -1,0 +1,10 @@
+{
+  "name": "@settlekick/txline-client",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": "./src/normalize-v2-proof.mjs",
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  }
+}

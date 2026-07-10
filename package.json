@@ -1,0 +1,17 @@
+{
+  "name": "settlekick-protocol",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "test:txline-client": "node --test packages/txline-client/test/*.test.mjs"
+  },
+  "packageManager": "npm@11.6.1"
+}
