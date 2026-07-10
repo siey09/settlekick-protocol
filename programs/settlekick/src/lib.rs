@@ -2,12 +2,14 @@ pub mod constants;
 pub mod error;
 pub mod instructions;
 pub mod state;
+pub mod txline;
 
 use anchor_lang::prelude::*;
 
 pub use constants::*;
 pub use instructions::*;
 pub use state::*;
+pub use txline::*;
 
 declare_id!("8pKvbZeZ51K6JMxhqwxx3nv5JGvWe87EQ9ToupRVMfSk");
 
