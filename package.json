@@ -11,7 +11,8 @@
     "node": ">=24 <25"
   },
   "scripts": {
-    "test:txline-client": "node --test packages/txline-client/test/*.test.mjs"
+    "test:txline-client": "node --test packages/txline-client/test/*.test.mjs",
+    "txline:replay": "node packages/txline-client/src/replay-v2-proof.mjs"
   },
   "packageManager": "npm@11.6.1"
 }

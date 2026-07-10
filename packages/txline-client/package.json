@@ -3,8 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "exports": "./src/normalize-v2-proof.mjs",
+  "exports": {
+    ".": "./src/normalize-v2-proof.mjs",
+    "./replay": "./src/replay-v2-proof.mjs"
+  },
   "scripts": {
     "test": "node --test test/*.test.mjs"
+  },
+  "bin": {
+    "settlekick-txline-replay": "./src/replay-v2-proof.mjs"
   }
 }
