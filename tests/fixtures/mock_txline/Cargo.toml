@@ -1,0 +1,17 @@
+[package]
+name = "mock-txline"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[lib]
+name = "mock_txline"
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+solana-program = "3.0.0"
+
+[workspace]
+
+[lints.rust]
+unexpected_cfgs = "allow"
