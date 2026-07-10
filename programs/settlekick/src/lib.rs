@@ -24,4 +24,12 @@ pub mod settlekick {
     pub fn increment(ctx: Context<Increment>) -> Result<()> {
         crate::instructions::increment::handle_increment(ctx)
     }
+
+    pub fn validate_txline(
+        ctx: Context<ValidateTxline>,
+        payload: StatValidationInput,
+        strategy: NDimensionalStrategy,
+    ) -> Result<bool> {
+        crate::instructions::validate_txline::handle_validate_txline(ctx, payload, strategy)
+    }
 }
