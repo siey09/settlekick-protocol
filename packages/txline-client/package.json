@@ -5,7 +5,8 @@
   "type": "module",
   "exports": {
     ".": "./src/normalize-v2-proof.mjs",
-    "./replay": "./src/replay-v2-proof.mjs"
+    "./replay": "./src/replay-v2-proof.mjs",
+    "./encode": "./src/encode-validate-stat-v2.mjs"
   },
   "scripts": {
     "test": "node --test test/*.test.mjs"
