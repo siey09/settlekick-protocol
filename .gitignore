@@ -1,0 +1,30 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+**/settlekick-devnet*.json
+**/*keypair*.json
+**/*wallet*.json
+
+# Node
+node_modules/
+dist/
+coverage/
+*.log
+.pnpm-store/
+
+# Solana and Anchor
+target/
+.anchor/
+test-ledger/
+.surfpool/
+
+# Framework deployments
+.vercel/
+.next/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
