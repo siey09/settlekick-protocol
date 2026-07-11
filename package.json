@@ -16,7 +16,8 @@
     "txline:build-unsigned": "node packages/txline-client/src/build-settlekick-transaction.mjs",
     "audit:high": "npm audit --audit-level=high",
     "txline:inspect-devnet": "node packages/txline-client/src/inspect-devnet-readiness.mjs",
-    "txline:fetch-proof": "node packages/txline-client/src/fetch-v2-proof.mjs"
+    "txline:fetch-proof": "node packages/txline-client/src/fetch-v2-proof.mjs",
+    "phase1:pipeline": "node packages/txline-client/src/run-phase1-pipeline.mjs"
   },
   "packageManager": "npm@11.6.1"
 }
