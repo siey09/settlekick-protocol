@@ -8,7 +8,8 @@
     "./replay": "./src/replay-v2-proof.mjs",
     "./encode": "./src/encode-validate-stat-v2.mjs",
     "./transaction": "./src/build-settlekick-transaction.mjs",
-    "./readiness": "./src/inspect-devnet-readiness.mjs"
+    "./readiness": "./src/inspect-devnet-readiness.mjs",
+    "./proof-fetch": "./src/fetch-v2-proof.mjs"
   },
   "scripts": {
     "test": "node --test test/*.test.mjs"
@@ -16,7 +17,8 @@
   "bin": {
     "settlekick-txline-replay": "./src/replay-v2-proof.mjs",
     "settlekick-build-unsigned": "./src/build-settlekick-transaction.mjs",
-    "settlekick-inspect-devnet": "./src/inspect-devnet-readiness.mjs"
+    "settlekick-inspect-devnet": "./src/inspect-devnet-readiness.mjs",
+    "settlekick-fetch-proof": "./src/fetch-v2-proof.mjs"
   },
   "dependencies": {
     "@solana/web3.js": "1.98.4"

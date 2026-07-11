@@ -28,3 +28,6 @@ test-ledger/
 .idea/
 .DS_Store
 Thumbs.db
+# Local environment credentials
+.env.local
+.env.*.local
