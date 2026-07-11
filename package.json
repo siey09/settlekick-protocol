@@ -12,7 +12,9 @@
   },
   "scripts": {
     "test:txline-client": "node --test packages/txline-client/test/*.test.mjs",
-    "txline:replay": "node packages/txline-client/src/replay-v2-proof.mjs"
+    "txline:replay": "node packages/txline-client/src/replay-v2-proof.mjs",
+    "txline:build-unsigned": "node packages/txline-client/src/build-settlekick-transaction.mjs",
+    "audit:high": "npm audit --audit-level=high"
   },
   "packageManager": "npm@11.6.1"
 }

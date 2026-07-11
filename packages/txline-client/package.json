@@ -6,12 +6,17 @@
   "exports": {
     ".": "./src/normalize-v2-proof.mjs",
     "./replay": "./src/replay-v2-proof.mjs",
-    "./encode": "./src/encode-validate-stat-v2.mjs"
+    "./encode": "./src/encode-validate-stat-v2.mjs",
+    "./transaction": "./src/build-settlekick-transaction.mjs"
   },
   "scripts": {
     "test": "node --test test/*.test.mjs"
   },
   "bin": {
-    "settlekick-txline-replay": "./src/replay-v2-proof.mjs"
+    "settlekick-txline-replay": "./src/replay-v2-proof.mjs",
+    "settlekick-build-unsigned": "./src/build-settlekick-transaction.mjs"
+  },
+  "dependencies": {
+    "@solana/web3.js": "1.98.4"
   }
 }
