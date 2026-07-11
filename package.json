@@ -14,7 +14,8 @@
     "test:txline-client": "node --test packages/txline-client/test/*.test.mjs",
     "txline:replay": "node packages/txline-client/src/replay-v2-proof.mjs",
     "txline:build-unsigned": "node packages/txline-client/src/build-settlekick-transaction.mjs",
-    "audit:high": "npm audit --audit-level=high"
+    "audit:high": "npm audit --audit-level=high",
+    "txline:inspect-devnet": "node packages/txline-client/src/inspect-devnet-readiness.mjs"
   },
   "packageManager": "npm@11.6.1"
 }
